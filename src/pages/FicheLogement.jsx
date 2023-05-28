@@ -27,6 +27,7 @@ function FicheLogement() {
     }
   `
   const Styleddivratinghost=styled.div`
+  text-align:right;
     @media screen and (max-width: 767px){
       display:flex;
       flex-direction:row-reverse;
@@ -44,6 +45,7 @@ function FicheLogement() {
   const StyleddivHost=styled.div`
     display:flex;
     justify-content:space-between;
+    align-items:center;
   `
   const StyledSpan=styled.span`
     width:45%;
@@ -72,6 +74,8 @@ function FicheLogement() {
   const Styledphost=styled(Styledp)` 
     width:80px;
     font-size:18px;
+    text-align:right;
+    padding-right:10px;
     @media screen and (max-width: 767px){
       font-size:12px;
       width:50px;

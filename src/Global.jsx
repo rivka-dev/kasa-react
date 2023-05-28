@@ -6,8 +6,8 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     }
     body {
-        margin-right:100px;
-        margin-left:100px;
+        margin-right:108px;
+        margin-left:108px;
         @media screen and (max-width: 767px){
             margin-right:20px;   
             margin-left:20px;       
