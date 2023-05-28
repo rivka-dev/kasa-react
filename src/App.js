@@ -5,13 +5,14 @@ import Home from './pages/Home'
 import APropos from './pages/APropos'
 import Error from './pages/Error'
 import FicheLogement from './pages/FicheLogement'
-
+import GlobalStyles from './Global'
 
 
 function App() {
   
   return (  
-   
+   <div>
+    <GlobalStyles/>
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -20,6 +21,7 @@ function App() {
             <Route path="/*" element={<Error />} />
           </Routes>
         </Router>
+        </div>
       
   )
 }
