@@ -40,12 +40,12 @@ const Styledbutton=Styled.button`
 `
 
 function Collapse(props) {
-    const [isOpen, setIsClose] = useState(true);  
-    return isOpen ?(
+    const [isClose, setIsClose] = useState(true);  
+    return isClose ?(
         <div >              
             <Styledh2 sz={props.sz}>
                 <span>{props.titre}</span>
-                <Styledbutton onClick={() => setIsClose(false)} ><img src={flechebas} alt='flechehaut'/></Styledbutton> 
+                <Styledbutton onClick={() => setIsClose(false)} ><img src={flechebas} alt='flechebas'/></Styledbutton> 
             </Styledh2>            
         </div>
     )
