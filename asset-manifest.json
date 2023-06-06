@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/kasa-react/static/js/main.4c9c687e.js",
+    "static/media/Apropos.png": "/kasa-react/static/media/Apropos.388a325a41a4341c7ba0.png",
+    "static/media/Image-Accueil.jpg": "/kasa-react/static/media/Image-Accueil.b753a40cb653b706ead0.jpg",
+    "static/media/LOGO.jpg": "/kasa-react/static/media/LOGO.71ff0ace324ffa3db812.jpg",
+    "index.html": "/kasa-react/index.html",
+    "main.4c9c687e.js.map": "/kasa-react/static/js/main.4c9c687e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4c9c687e.js"
+  ]
+}
