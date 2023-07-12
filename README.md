@@ -6,16 +6,17 @@ Kasa is recruiting you as a freelance front-end developer to develop its new web
 Start the React project and develop the whole application, the React components, the React Router routes, following the Figma mockups (responsive!) and all the info I give you below. And this with a quality code!
 ### Design
 Here are the [models on Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0) for the interface design.
+
 ### Functional constraints
-A few details on the features of the site:
-    1. For scrolling photos in the gallery (Gallery component):
-        - If the user is at the first image and clicks on "Previous image", the gallery displays the last image.
-        - Conversely, when the image displayed is the last in the gallery, if the user clicks on "Next image", the gallery displays the first image.
-        - If there is only one image, the "Next" and "Previous" buttons as well as the numbering do not appear.
-    2. The gallery must always remain the same height, that indicated on the Figma model. The images will therefore be cropped and centered within the image frame.
-    3. Collapse: By default, Collapses are closed on page initialization.
+A few details on the features of the site :  
+    1. For scrolling photos in the gallery (Gallery component) :  
+        - If the user is at the first image and clicks on "Previous image", the gallery displays the last image.  
+        - Conversely, when the image displayed is the last in the gallery, if the user clicks on "Next image", the gallery displays the first image.  
+        - If there is only one image, the "Next" and "Previous" buttons as well as the numbering do not appear.  
+    2. The gallery must always remain the same height, that indicated on the Figma model. The images will therefore be cropped and centered within the image frame.  
+    3. Collapse: By default, Collapses are closed on page initialization.   
     4. If the Collapse is open, the user's click closes it.
-        Conversely, if the Collapse is closed, a click opens it.
+        Conversely, if the Collapse is closed, a click opens it.  
 
 
 
