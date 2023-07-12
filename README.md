@@ -1,31 +1,25 @@
-# Créez une application web de location immobilière avec React
-Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
-## Badges
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-## Scénario
-Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. 
+# Create a real estate rental web application with React
+Kasa has been in the business of renting apartments between individuals for almost 10 years now. With more than 500 advertisements posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.
+## Script
+Kasa is recruiting you as a freelance front-end developer to develop its new web platform.
 ### Missions
-Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité ! 
+Start the React project and develop the whole application, the React components, the React Router routes, following the Figma mockups (responsive!) and all the info I give you below. And this with a quality code!
 ### Design
-Voici les [maquettes sur Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0) pour le design d’interface.
-### Contraintes fonctionnelles
-Quelques précisions sur les fonctionnalités du site :  
-    1. Pour le défilement des photos dans la galerie (composant Gallery) :  
-        - Si l'utilisateur se trouve à la première image et qu'il clique sur "Image précédente", la galerie affiche la dernière image.  
-        - Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "Image suivante", la galerie affiche la première image.  
-        - S'il n'y a qu'une seule image, les boutons "Suivant" et "Précédent" ainsi que la numérotation n'apparaissent pas.  
-    2. La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.  
-    3. Collapse : Par défaut, les Collapses sont fermés à l'initialisation de la page.   
-    4. Si le Collapse est ouvert, le clic de l'utilisateur permet de le fermer.  
-        Inversement, si le Collapse est fermé, un clic permet de l'ouvrir.  
+Here are the [models on Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0) for the interface design.
+### Functional constraints
+A few details on the features of the site:
+    1. For scrolling photos in the gallery (Gallery component):
+        - If the user is at the first image and clicks on "Previous image", the gallery displays the last image.
+        - Conversely, when the image displayed is the last in the gallery, if the user clicks on "Next image", the gallery displays the first image.
+        - If there is only one image, the "Next" and "Previous" buttons as well as the numbering do not appear.
+    2. The gallery must always remain the same height, that indicated on the Figma model. The images will therefore be cropped and centered within the image frame.
+    3. Collapse: By default, Collapses are closed on page initialization.
+    4. If the Collapse is open, the user's click closes it.
+        Conversely, if the Collapse is closed, a click opens it.
 
 
 
-
-# Getting Started with Create React App
+# Getting Started with Create React 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
